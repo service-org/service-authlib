@@ -57,6 +57,3 @@ class PasswordGrant(ResourceOwnerPasswordCredentialsGrant):
         注意: 密码模式只是兼容老版本而存在,特殊场景需求请重写依赖注入dependencies中的Oauth2或OpenID的setup方式注入自己的逻辑
         """
         raise NotImplementedError()
-
-
-from authlib.integrations.flask_client import OAuth
