@@ -4,5 +4,4 @@
 
 from __future__ import annotations
 
-from authlib.oauth2.rfc6749.grants import ClientCredentialsGrant
-
+from service_authlib.core.server.common.models.base import BaseModel

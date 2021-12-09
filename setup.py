@@ -26,5 +26,7 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.9',
     ],
-    install_requires=['service-sqlalchemy', 'Authlib==0.15.5']
+    install_requires=[
+        'service-webserver', 'service-sqlalchemy', 'Authlib==0.15.5'
+    ]
 )
